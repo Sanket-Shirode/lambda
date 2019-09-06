@@ -8,4 +8,4 @@ def sum(n=10):
 
 def lambda_handler(event, context):
     # TODO implement
-    print(sum())
+    return f"The total value is {sum()}"
